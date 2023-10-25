@@ -1,0 +1,17 @@
+{
+    "Входящий request": {
+        "id": "1a16a4ec-cb93-489d-b25b-9b54f3b8a47e",
+        "operation_type": "axiswise_rot",
+        "file": "/tmp/14d7b011-79d9-461c-b8a6-7aa1fdbc57bd/cloud.ply",
+        "output_path": "/some/output_path",
+        "params": {
+            "ax": "y",
+            "rad": "0.261799"
+        }
+    },
+    "Ожидаемый response": {
+        "id": "1a16a4ec-cb93-489d-b25b-9b54f3b8a47e",
+        "operation_type": "axiswise_rot",
+        "file": "/some/output_path/cloud.ply"
+    }
+}

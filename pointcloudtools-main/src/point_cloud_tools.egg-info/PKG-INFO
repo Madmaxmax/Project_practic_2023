@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: point-cloud-tools
+Version: 0.1.0
+Requires-Python: >=3.7
+Requires-Dist: open3d
+Requires-Dist: numpy>=1.22.0
+Requires-Dist: haversine==2.8.0
+Provides-Extra: ros
+Requires-Dist: py3rosmsgs; extra == "ros"
+Provides-Extra: cli
+Requires-Dist: click==8.1.4; extra == "cli"
+Provides-Extra: all
+Requires-Dist: point-cloud-tools[cli,ros]; extra == "all"

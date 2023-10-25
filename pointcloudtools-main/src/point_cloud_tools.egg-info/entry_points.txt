@@ -1,0 +1,2 @@
+[console_scripts]
+pct = pct.cli.entrypoint:main

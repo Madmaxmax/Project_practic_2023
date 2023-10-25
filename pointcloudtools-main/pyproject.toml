@@ -1,0 +1,24 @@
+[build-dependencies]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = ["setuptools.build_meta"]
+
+[project]
+name = "point-cloud-tools"
+version = "0.1.0"
+requires-python = ">=3.7"
+dependencies = [
+    "open3d",
+    "numpy >=1.22.0",
+    "haversine ==2.8.0",
+]
+
+[project.optional-dependencies]
+ros = ["py3rosmsgs"]
+cli = ["click ==8.1.4"]
+all = ["point-cloud-tools[ros, cli]"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.scripts]
+pct = "pct.cli.entrypoint:main"

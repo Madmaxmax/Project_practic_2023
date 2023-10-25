@@ -1,0 +1,14 @@
+{
+    "Входящий request": {
+        "id": "da62c2b9-c8fb-41be-8652-0a173c8bdfbf",
+        "operation_type": "conv_ply_xyz",
+        "file": "/tmp/7c58f940-86f3-473a-ace1-b8038bf69d84/cloud.ply",
+        "output_path": "/some/output_path",
+        "params": {}
+    },
+    "Ожидаемый response": {
+        "id": "da62c2b9-c8fb-41be-8652-0a173c8bdfbf",
+        "operation_type": "conv_ply_xyz",
+        "file": "/some/output_path/cloud.xyz"
+    }
+}

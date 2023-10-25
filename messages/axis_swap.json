@@ -1,0 +1,17 @@
+{
+    "Входящий request": {
+        "id": "28cb313c-7f1a-4ab0-a08f-a1c09151a8dd",
+        "operation_type": "axis_swap",
+        "file": "/tmp/fc1f9690-cbc6-4bd8-8707-bf88efe7252f/cloud.ply",
+        "output_path": "/some/output_path",
+        "params": {
+            "ax": "y",
+            "with_ax": "z"
+        }
+    },
+    "Ожидаемый response": {
+        "id": "28cb313c-7f1a-4ab0-a08f-a1c09151a8dd",
+        "operation_type": "axis_swap",
+        "file": "/some/output_path/cloud.ply"
+    }
+}

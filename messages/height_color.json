@@ -1,0 +1,16 @@
+{
+    "Входящий request": {
+        "id": "39944608-adb5-4370-ae20-bf582c4bc9d0",
+        "operation_type": "height_color",
+        "file": "/tmp/b5477929-5668-42d4-b95d-9749b3c5e195/cloud.ply",
+        "output_path": "/some/output_path",
+        "params": {
+            "height_axis": "z"
+        }
+    },
+    "Ожидаемый response": {
+        "id": "39944608-adb5-4370-ae20-bf582c4bc9d0",
+        "operation_type": "height_color",
+        "file": "/some/output/path/cloud.ply"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "Входящий request": {
+        "id": "a57745cf-018f-4255-a7ac-d1edfb285c6f",
+        "operation_type": "unbag",
+        "files": [
+            "/tmp/8c514151-f4e4-4df1-89b9-9a5c46350953/fragment_2023-04-19-16-16-26_0.bag",
+            "/tmp/8c514151-f4e4-4df1-89b9-9a5c46350953/fragment_2023-04-19-16-16-56_1.bag",
+            "/tmp/8c514151-f4e4-4df1-89b9-9a5c46350953/fragment_2023-04-19-16-17-26_2.bag",
+            "/tmp/8c514151-f4e4-4df1-89b9-9a5c46350953/fragment_2023-04-19-16-17-56_3.bag",
+            "/tmp/8c514151-f4e4-4df1-89b9-9a5c46350953/fragment_2023-04-19-16-18-26_4.bag"
+        ],
+        "output_path": "/some/output_path",
+        "params": {}
+    },
+    "Ожидаемый response": {
+        "id": "a57745cf-018f-4255-a7ac-d1edfb285c6f",
+        "operation_type": "unbag",
+        "file": "/some/output_path/cloud.ply"
+    }
+}

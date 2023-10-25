@@ -1,0 +1,12 @@
+open3d
+numpy>=1.22.0
+haversine==2.8.0
+
+[all]
+point-cloud-tools[cli,ros]
+
+[cli]
+click==8.1.4
+
+[ros]
+py3rosmsgs
